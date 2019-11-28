@@ -1,9 +1,33 @@
 
 .about-me-wrapper{
-    border: solid white 2px;
+    border: solid white 5px;
     margin: 0 3%;
     background-color: white;
+    text-align: center;
 }
+
+#about-me-text, #skills-wrapper{
+    border-top: 2px solid rgb(173, 171, 171);
+    margin: 0 5%;
+}
+
+#about-me-text p{
+    font-size: 2.5vh;
+}
+
+#android{
+    margin: 1.5% 1.5%;
+}
+
+div.selfie-section ~ h2{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+div.about-me-wrapper > h2{
+    font-size: 4vh;
+}
+
 
 body{
     margin: 0;
@@ -24,12 +48,25 @@ body{
     font-size: 50px;
 }
 
-#job-title{
-    font-style: italic;
+.selfie-box{
+    max-width: 35vh;
+    max-height: 35vh;
+    margin-top: 3%;
+    border-radius: 100%;
+    border: solid 4px rgb(173, 171, 171);
 }
 
-#name{
-    margin-bottom: 0;
+.selfie-section{
+    align-content: center;
+    margin: 5%;
+}
+
+#skills-list{
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .section-1{
@@ -40,3 +77,20 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+#job-title{
+    font-style: italic;
+}
+
+#java{
+    margin: 1%;
+}
+#jquery{
+    margin: 1% 1.5%;
+}
+
+#name{
+    margin-bottom: 0;
+}
+
+
