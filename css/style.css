@@ -7,14 +7,14 @@ a{
 }
 
 
-.about-me-wrapper, .projects{
+.about-me-wrapper, .projects, .contact-me{
     border: solid white 5px;
     margin: 0 3%;
     background-color: white;
     text-align: center;
 }
 
-#about-me-text, #skills-wrapper, #projects-wrapper{
+#about-me-text, #skills-wrapper, #projects-wrapper, #contact-wrapper {
     border-top: 2px solid rgb(97, 96, 96);
     margin: 0 5%;
 }
@@ -37,8 +37,11 @@ a{
     color: white;
 }
 
+#footer a, #footer h4{
+    color: #2196F3;
+}
 
-.card{
+#projects-wrapper .card{
    margin-top: 10%;
    padding-bottom: 1%; 
    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
@@ -50,6 +53,8 @@ a{
     margin: 5% 0;
 }
 
+
+
 .discription{
     margin-top: 0;
     margin: 0 3%;
@@ -59,21 +64,24 @@ a{
     margin: 0;
 }
 div.selfie-section ~ h2,
-.projects > h2{
+.projects > h2,
+.contact-me >h2{
     margin-top: 10%;
     margin-bottom: 2%;
 }
 
 div.about-me-wrapper > h2,
-.projects > h2{
+.projects > h2,
+.contact-me >h2{
     font-size: 4vh;
 }
 
-.projects > h2{
+.projects > h2,
+.contact-me >h2{
     margin-top: 0;
 }
 
-.projects{
+.projects, .contact-me{
     margin-top: 15%;
 }
 
@@ -94,6 +102,8 @@ body{
     text-align: center;
     color: aliceblue;
 }
+
+
 
 .section-1 h1{
     padding-top: 70%;
@@ -143,6 +153,11 @@ body{
 
 #name{
     margin-bottom: 0;
+}
+
+#mailLink{
+    color: black;
+    font-size: 101.5%;
 }
 
 
