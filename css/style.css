@@ -266,14 +266,14 @@ p{
     .discription >p{
         font-size: 3vh;
     }
+
+    #email{
+        float: left;
+    }
     
     #footer{
         width: 100%;
         margin: 0 auto;
-    }
-
-    #email{
-        float: left;
     }
 
     #phone{
